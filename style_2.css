@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: Vollkorn;
+}
+.container {
+    padding: 69px;
+    background-color: black;
+    
+}
+form {
+    margin: auto;
+    width: 564px;
+}
+input {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    background: rgba(255, 255, 255, 0.18); 
+}
+input::placeholder {
+    color: white;
+}
+.name {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+.email {
+    background-color: rgba(255, 255, 255, 0.20);;
+}
+.budget {
+    background-color: rgba(255, 255, 255, 0.18);
+    ;
+}
+textarea{
+    height: 127px;
+    width: 100%;
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.20);
+}
+textarea::placeholder {
+    padding-left: 15px;
+    padding-top: 17px;
+    color: white;
+}
+.send {
+    text-decoration: none;
+    border-radius: 2px;
+    border-color: #7EC4BD;
+    color: #8BCAC3;;
+    font-size: 17px;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    border: solid;
+    max-width: 250px;
+    margin: auto;
+    border-width: 1px;
+    font-family: Vollkorn;
+}
+.send_massage {
+    border-color: #7EC4BD;
+    margin: 21px 0px;
+}
+img {
+    margin: auto;
+    display: block;
+    padding-top: 21px;
+}
